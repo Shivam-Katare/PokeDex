@@ -31,8 +31,8 @@ const Pokemon = ({ pokemon }) => {
       <div className="logo bg-gray-200">
         <div id="pagegradient"></div>
 
-        <a class="button">
-          <Link href="/">
+        <a className="button">
+          <Link passHref href="/">
             <span>Go Back</span>
           </Link>
 

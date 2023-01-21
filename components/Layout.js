@@ -12,7 +12,7 @@ const Layout = ({ children, title }) => {
       </Head>
 
       <header className="py-10 mb-10">
-        <Link href="/">
+        <Link passHref href="/">
           <a>
             <h1 className="text-6xl text-center text-amber-400" id="titleContainer">{title}</h1>
           </a>
@@ -24,7 +24,7 @@ const Layout = ({ children, title }) => {
       </main>
 
       <footer className="flex justify-center items-center mt-10">
-        <p className='footerContent'>Made with ♥ by <Link href="https://twitter.com/Shivamkatare_27">Shivam Katare</Link></p>
+        <p className='footerContent'>Made with ♥ by <Link passHref href="https://twitter.com/Shivamkatare_27">Shivam Katare</Link></p>
       </footer>
     </div>
   );
